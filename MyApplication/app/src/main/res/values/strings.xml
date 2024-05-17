@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Kangarun</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="distence">Distence</string>
+    <string name="_0_km">0 km</string>
+    <string name="duration">Duration</string>
+    <string name="_0_min">0 min</string>
+    <string name="calories">Calories</string>
+    <string name="_0_cal">0 cal</string>
+    <string name="distance">distance</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save Exercise record</string>
+    <string name="permission_required_toast">permission required toast</string>
+    <string name="permission_rationale_location">permission rationale location</string>
+    <string name="location_permission_denied">location permission denied</string>
+    <string name="Distance">Distance</string>
+    <string name="_00_00">00:00</string>
+    <string name="map_not_ready" />
+    <string name="map_not_ready_1">map not ready !!</string>
+    <string name="zoom_buttons">zoom buttons</string>
+    <string name="exercise_record">Exercise Record</string>
+    <string name="start_exercise">Start Exercise</string>
+    <string name="select_user">Select User</string>
+    <string name="nameDescending">Name ↓</string>
+    <string name="emailDescending">Email ↓</string>
+    <string name="nameAscending">Name ↑</string>
+    <string name="emailAscending">Email ↑</string>
+    <string name="exercise_records">Exercise Records</string>
+    <string name="back_button_description">back</string>
+
+    <string-array name="gender_options">
+        <item>All Genders</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

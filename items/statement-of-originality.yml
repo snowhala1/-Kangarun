@@ -1,0 +1,93 @@
+## Pledge of Academic Integrity
+<DO NOT MODIFY THE STRUCTURE OF THIS FILE>
+    
+I am committed to being a person of integrity.
+    
+I pledge, as a member of the Australian National University community,
+to abide by and uphold the standards of academic integrity outlined in
+the ANU statement on [honesty and plagiarism](http://www.anu.edu.au/students/program-administration/assessments-exams/academic-honesty-plagiarism),
+and I am aware of the relevant
+[legislation](https://www.legislation.gov.au/Details/F2021L00997),
+  and understand the consequences of me breaching those rules. I confirm that my answers to the questions below will be truthful, up to date and complete.
+# for information & examples on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+# this document has been modified for the purpose of the COMP2100/6442 group assignment.
+
+## Research
+  We may use data related to this assignment, including this statement, for research purposes to improve computing education and student experience. Your participation is entirely voluntary and any personal information will be anonymized and kept confidential. Your identity will not be disclosed in any research reports or publications. To opt out of this research, uncheck below.
+- [X] I consent to use my data for research purposes.
+
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely our
+  own work, with the following exceptions:
+  
+
+# add as many "name+comment" entries as necessary
+# (or remove it altogether if you haven't collaborated with anyone outside your group)
+collaboration:
+  - name:
+    comment: >-
+  
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external code)
+code:
+  - comment: Get image from system to upload as profile image
+    url: https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/UpdateProfileActivity.java
+    licence: Apache 2.0
+  - comment: Save screen shots and load to display
+    url: https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/UpdateProfileActivity.java
+         https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/adapter/UserAdapter.java
+         https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/adapter/ChatAdapter.java
+         https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/ExerciseRecordDetailActivity.java
+         https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/UserProfileActivity.java
+         https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/FriendProfileActivity.java
+         https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/MainActivity.java
+    licence: Apache 2.0
+  - comment: Draw line chart
+    url: https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/java/com/example/kangarun/activity/ExerciseRecordActivity.java
+    licence: Apache 2.0
+
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external assets)
+assets:
+  - comment: Loading animation
+    url: https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/blob/main/MyApplication/app/src/main/res/raw/loading_animation.json
+    licence: Apache 2.0
+  - comment: Some icons
+    url: https://gitlab.cecs.anu.edu.au/u7724723/gp-24s1/-/tree/main/MyApplication/app/src/main/res/drawable/ic_*
+    licence: Apache 2.0
+
+
+### Questions (answer before final submission):
+1. You (as a group) completed this work (tick the most appropriate option):
+  - [ ] by yourself (as a group) without the help of others;
+      [x] with Gen AI tools (e.g., ChatGPT, Co-Pilot).
+      [ ] using online resources (e.g., Stackoverflow, blogs)
+
+2. If not completed by yourself only, how did the use of Gen AI tools (and which ones), contribute to completing this assignment?
+  - Tool(s): <CHATGPT>
+  
+3. How did they contribute to the completion of this assignment?
+  - <Debugging and commenting>
+
+4. How long did it take to complete this assignment (approximately, in hours)?
+  - <50> hours
+
+
+
+# for each member, sign by inputting your name and uid here (remove any empty "name+uid" entries)
+members:
+  - name: Qiutong Zeng
+    uid: u7724723
+  - name: Heng Sun
+    uid: u7611510
+  - name: Runyao Wang
+    uid: u6812566
+  - name: Bingnan Zhao
+    uid: u6508459
+  - name: Yan Jin
+    uid: u7779907
+

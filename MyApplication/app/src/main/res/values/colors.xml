@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple">#51247a</color>
+    <color name="Microsoftblue">#09A4DB</color>
+    <color name="Grey">#E7E5EA</color>
+    <color name="Button">#6650a5</color>
+    <color name="Notice">#F7AD19</color>
+    <color name="my_primary">#33B5FF</color>
+</resources>

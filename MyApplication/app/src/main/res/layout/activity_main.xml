@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Microsoftblue"
+    tools:context=".activity.MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        app:cardBackgroundColor="@color/Grey"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.hitomi.cmlibrary.CircleMenu
+                android:id="@+id/circle_menu"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log out"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintVertical_bias="0.9"
+                app:layout_constraintBottom_toBottomOf="@+id/circle_menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/main_profile_image_view"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="5dp"
+        app:strokeColor="@color/black"
+        android:padding="5dp"
+        android:backgroundTint="@color/my_primary"
+        android:scaleType="centerCrop"
+        android:src="@drawable/person_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.498"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
